@@ -19,6 +19,10 @@ Jobby App allows users to:
 
 ## 🎥 Demo Previews
 
+## Live Link
+
+(https://ashleshjobbyapp.ccbp.tech/)
+
 ### ✅ Success View
 
 [https://assets.ccbp.in/frontend/content/react-js/jobby-app-success-output-v0.mp4](https://assets.ccbp.in/frontend/content/react-js/jobby-app-success-output-v0.mp4)
