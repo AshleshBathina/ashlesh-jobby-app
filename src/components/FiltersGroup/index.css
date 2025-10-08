@@ -1,0 +1,37 @@
+.filter-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.filter-heading {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 0px;
+}
+
+.item-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.filter-input {
+}
+
+.filter-label {
+  color: #ffffff;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.h-line {
+  border: none;
+  border-top: 2px solid #7e858e;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}

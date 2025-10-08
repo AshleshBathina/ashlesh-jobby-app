@@ -1,0 +1,153 @@
+.jobs-route-container {
+  min-height: 95vh;
+  height: 100%;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-top: 30px;
+  background-color: #000000;
+}
+
+.jobs-content-container {
+  width: 90%;
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .jobs-content-container {
+    flex-direction: column;
+  }
+}
+
+.left-of-page-container {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  flex-shrink: 0;
+  margin-right: 30px;
+}
+
+@media (max-width: 767px) {
+  .left-of-page-container {
+    width: 100%;
+  }
+}
+
+.h-line {
+  border: none;
+  border-top: 2px solid #7e858e;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.right-of-page-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #7e858e;
+  width: 400px;
+  border-radius: 5px;
+}
+
+@media (max-width: 767px) {
+  .search-container {
+    display: none;
+  }
+}
+
+.mobile-search-container {
+  display: none;
+  align-items: center;
+  border: 1px solid #7e858e;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .mobile-search-container {
+    display: flex;
+  }
+}
+
+.search {
+  flex-grow: 1;
+  background-color: transparent;
+  padding: 8px;
+  border: none;
+  color: #272727;
+  outline: none;
+}
+
+.search-button {
+  background-color: #272727;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  height: 100%;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.search-icon {
+  color: #7e858e;
+  font-size: 18px;
+}
+
+.jobs-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.jobs-content-image {
+  width: 40%;
+}
+
+.jobs-content-heading {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.jobs-content-paragraph {
+  color: #7e858e;
+  font-size: 12px;
+  margin: 0px;
+}
+
+.all-jobs-content-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.jobs-list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+  list-style-type: none;
+  width: 100%;
+}
+
+.retry-button {
+  background-color: #b6c5ff;
+  padding: 8px;
+  color: #ffffff;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+}
