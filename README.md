@@ -21,7 +21,7 @@ Jobby App allows users to:
 
 ## Live Link
 
-(https://ashleshjobbyapp.ccbp.tech/)
+https://ashleshjobbyapp.ccbp.tech
 
 ### ✅ Success View
 
